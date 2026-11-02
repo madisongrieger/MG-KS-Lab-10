@@ -10,5 +10,5 @@ def remove_duplicates(x):
     """
     result =[]
     for i in x:
-    if i not in result:
-      result.append(i)
+        if i not in result:
+            result.append(i)
