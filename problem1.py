@@ -12,3 +12,4 @@ def remove_duplicates(x):
     for i in x:
         if i not in result:
             result.append(i)
+    return result
