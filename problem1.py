@@ -10,3 +10,4 @@ def remove_duplicates(x):
   '''
   doubles= []
   for i in x:
+    if 
