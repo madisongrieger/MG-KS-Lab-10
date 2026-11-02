@@ -6,4 +6,5 @@ def square(x):
     >>> square([1,-1,9,3.1])
     [1,1,81,9.610000000000001]
     """
-  ### add only one line of code here!
+    return [i**2 for i in x]
+    
