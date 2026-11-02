@@ -7,4 +7,3 @@ def square(x):
     [1,1,81,9.610000000000001]
     """
     return [i**2 for i in x]
-    
