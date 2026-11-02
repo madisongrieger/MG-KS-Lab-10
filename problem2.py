@@ -8,7 +8,10 @@ def merge(x,y):
   >>> merge([1,3,6],[2,3,5])
   [1,2,3,3,5,6]
   '''
-  digits=[]
-  for i in x,y:
-    x,y [0:]
-  taking the minimum
+  result=[]
+  while (len(x)<0 and len(y)<0):
+    minimum=min(x[0],y[0])
+    result.append(minimum)
+    if minimum==x[0]:
+      x=x[1:]
+      
