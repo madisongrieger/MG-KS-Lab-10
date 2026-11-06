@@ -9,13 +9,13 @@ def merge(x,y):
   [1,2,3,3,5,6]
   '''
   result=[]
-  while (len(x) > 0 and len(y)> 0:
+  while len(x) > 0 and len(y)> 0:
     if x[0] <= y[0]:
-      result.append(x[0])
-      x = x[1:]
+        result.append(x[0])
+        x = x[1:]
     else:
-      result.append(x[0])
-      x= x[1:]
+        result.append(y[0])
+        y= y[1:]
   for item in x:
       result.append(item)
   for item in y:
