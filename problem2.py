@@ -14,4 +14,4 @@ def merge(x,y):
     result.append(minimum)
     if minimum==x[0]:
       x=x[1:]
-      
+  return result    
