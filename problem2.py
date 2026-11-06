@@ -9,9 +9,15 @@ def merge(x,y):
   [1,2,3,3,5,6]
   '''
   result=[]
-  while (len(x)<0 and len(y)<0):
-    minimum=min(x[0],y[0])
-    result.append(minimum)
-    if minimum==x[0]:
-      x=x[1:]
-  return result    
+  while (len(x) > 0 and len(y)> 0:
+    if x[0] <= y[0]:
+      result.append(x[0])
+      x = x[1:]
+    else:
+      result.append(x[0])
+      x= x[1:]
+  for item in x:
+      result.append(item)
+  for item in y:
+      result.append(item)
+  return result
