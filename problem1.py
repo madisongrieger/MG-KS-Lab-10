@@ -7,6 +7,10 @@ def remove_duplicates(x):
     [63, 67, 27, 25, 8]
     >>> remove_duplicates([1,1,1,1])
     [1]
+    >>> remove_duplicates([2,4,6,6,8])
+    [2, 4, 6, 6, 8]
+    >>> remove_duplicates([1,1,5,6,7])
+    [1, 5, 6, 7]
     """
     result =[]
     for i in x:
