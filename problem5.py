@@ -16,5 +16,5 @@ def rotate_by_n(x,n):
   for i in x:
     result.append(i)
   for i in range(n):
-    result = [result[-1]] + result[:-1]
+    result = [result[-1]] + [result[:-1]]
   return result 
