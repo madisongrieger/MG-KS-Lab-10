@@ -14,8 +14,7 @@ def rotate_by_n(x,n):
   '''
   result=[]
   for i in x:
-    result.append(item)
+    result.append(i)
   for i in range(n):
-    result = [result[-1]  + result[:-1]
-  return result            
-  
+    result = [result[-1]+result[:-1]
+  return result 
