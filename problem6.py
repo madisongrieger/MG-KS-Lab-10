@@ -1,4 +1,4 @@
-def closest(x,n):
+ def closest(x,n):
   '''
   list -> list
   takes in a list of numbers and a number, n, and returns the single value in the list closet to that number
@@ -10,5 +10,8 @@ def closest(x,n):
   '''
   closest_num= x[0]
   for num in x:
-    if (num-n if num>n else 
-    
+    distance1= num-n if num> n else n-num
+    distance2= closest_num -n if closest_num > n else n- closest_num
+    if distance1 < distance2:
+      closest_num = num
+  return closest_num
