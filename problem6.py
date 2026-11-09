@@ -1,4 +1,4 @@
- def closest(x,n):
+def closest(x,n):
   '''
   list -> list
   takes in a list of numbers and a number, n, and returns the single value in the list closet to that number
@@ -9,7 +9,7 @@
   6.7
   >>> closest([12,5,1],11)
   12
-  >>>closest([2,7,10,15],3)
+  >>> closest([2,7,10,15],3)
   2
   '''
   closest_num= x[0]
